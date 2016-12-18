@@ -1,0 +1,9 @@
+   passwd  root
+   uname -r
+   wget --no-check-certificate https://raw.githubusercontent.com/tennfy/shadowsocks-libev/master/debian_shadowsocks_tennfy.sh
+   chmod a+x debian_shadowsocks_tennfy.sh
+   bash debian_shadowsocks_tennfy.sh
+   vim /etc/shadowsocks-libev/config.json 
+   wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh
+   /serverspeeder/bin/serverSpeeder.sh start
+   debian7安装serverspeeder加速shadowsocks
